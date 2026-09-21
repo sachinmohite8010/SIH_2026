@@ -1,0 +1,5 @@
+From now on, when you modify SatQuery:
+
+git add .
+git commit -m "Describe your changes"
+git push origin main
