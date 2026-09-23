@@ -1,12 +1,12 @@
-From now on, when you modify SatQuery:
+fastapi
+uvicorn
+python-multipart
+jinja2
 
-git add .
-git commit -m "Describe your changes"
-git push origin main
+torch
+torchvision
+ultralytics
 
-command to server start:
-.\venv\Scripts\python.exe -m uvicorn main:app --reload
-
-.\ai_venv\Scripts\python.exe -m uvicorn main:app --reload
-
-Detect buildings in this satellite image
+opencv-python
+pillow
+numpy
