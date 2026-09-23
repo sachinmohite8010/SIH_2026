@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SatQuery AI</title>
+
+  <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+
+<body>
+
+  <div class="container">
+
+    <header>
+
+      <h1>SatQuery AI</h1>
+
+      <p>
+        Interactive Vision-Language Assistant
+        for Remote Sensing Image Analysis
+      </p>
+
+    </header>
+
+
+    <main>
+
+      <form id="analysisForm">
+
+
+        <!-- IMAGE UPLOAD -->
+
+        <section class="card">
+
+          <h2>Satellite Image</h2>
+
+          <p>
+            Upload a satellite or remote sensing image.
+          </p>
+
+          <input type="file" id="image" name="image" accept="image/*,.tif,.tiff" required>
+
+        </section>
+
+
+        <!-- NATURAL LANGUAGE QUERY -->
+
+        <section class="card">
+
+          <h2>Ask SatQuery</h2>
+
+          <p>
+            Describe what you want to analyze.
+          </p>
+
+          <textarea id="query" name="query" placeholder="Example: Identify the major land cover types in this image."
+            required></textarea>
+
+        </section>
+
+
+        <!-- BUTTON -->
+
+        <button type="submit">
+          Analyze Satellite Image
+        </button>
+
+
+      </form>
+
+
+      <!-- RESULT -->
+
+      <section class="result">
+
+        <h2>Analysis Result</h2>
+
+        <pre id="resultText">
+Upload an image and enter your query.
+        </pre>
+
+        <!-- AI RESULT IMAGE -->
+
+        <div id="resultImageContainer"></div>
+
+      </section>
+
+
+    </main>
+
+  </div>
+
+
+  <script src="/static/script.js"></script>
+
+</body>
+
+</html>
+

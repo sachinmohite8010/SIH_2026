@@ -1,0 +1,12 @@
+﻿ai_venv/
+__pycache__/
+uploads/
+runs/
+dota8/
+dota8.zip
+*.pyc
+*.pyo
+*.pyd
+.env
+.vscode/
+*.pt
