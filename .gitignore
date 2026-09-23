@@ -1,12 +1,31 @@
-﻿ai_venv/
+# Python
 __pycache__/
-uploads/
-runs/
-dota8/
-dota8.zip
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
+
+# Virtual environment
+ai_venv/
+venv/
+env/
+
+# Environment variables
 .env
+.env.*
+
+# VS Code
 .vscode/
+
+# Uploaded/generated files
+uploads/
+runs/
+
+# Datasets
+dota8/
+dota8.zip
+
+# YOLO model weights
 *.pt
+
+# Python cache
+.pytest_cache/
